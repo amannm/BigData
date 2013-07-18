@@ -1,0 +1,10 @@
+﻿create index concepts_rxcui_index on rxnorm.concepts(rxcui);
+create index concepts_str_index on rxnorm.concepts(str);
+create index concepts_tty_index on rxnorm.concepts(tty);
+create index concepts_code_index on rxnorm.concepts(code);
+create index attributes_rxcui_index on rxnorm.attributes(rxcui);
+create index attributes_atv_index on rxnorm.attributes(atv);
+create index attributes_atn_index on rxnorm.attributes(atn);
+create index relationships_rxcui1_index on rxnorm.relationships(rxcui1);
+create index relationships_rxcui2_index on rxnorm.relationships(rxcui2);
+create index relationships_rela_index on rxnorm.relationships(rela);
